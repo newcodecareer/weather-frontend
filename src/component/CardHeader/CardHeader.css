@@ -1,0 +1,49 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    color: #fff;
+}
+
+.card_current-weather {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-degree {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.extra-info {
+    display: flex;
+    padding: 1rem;
+    line-height: 1.5;
+
+}
+
+.extra-info div {
+    padding: 1rem;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 90%;
+    background-color: #fff;
+}
+
+.card-city {
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.card-city::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    top: 40px;
+    left: 0;
+    background-color: #fff;
+}

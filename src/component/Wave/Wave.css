@@ -1,0 +1,21 @@
+.Wave {
+    position: absolute;
+    /* bottom: -5rem; */
+    left: 0;
+    height: 15rem;
+    width: 200%;
+    opacity: 0.2;
+    animation: move_wave 30s linear infinite;
+}
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}

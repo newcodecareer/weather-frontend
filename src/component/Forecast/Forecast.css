@@ -1,0 +1,22 @@
+.forecast {
+    margin: .5rem;
+    line-height: 1.5;
+}
+
+.day {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.max {
+    font-size: 20px;
+}
+
+.min {
+    font-size: 14px;
+}
+
+.forecast-temp {
+    display: flex;
+    justify-content: space-between;
+}
